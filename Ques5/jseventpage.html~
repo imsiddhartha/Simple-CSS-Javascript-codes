@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Question 5 </title>
+		<link rel="stylesheet" href="css/5.css"/>
+		<script src="js/jsevent.js"></script>
+	</head>
+	
+	<body>	
+		<button type="button" id="iw" onclick="IncreaseWidth()">Increase Width  </button>
+			
+		<button type="button" id="dw" onclick="DecreaseWidth()">Decrease Width </button>
+			
+		<button type="button" id="ih" onclick="IncreaseHeight()">Increase Height </button>
+			
+		<button type="button" id="dh" onclick="DecreaseHeight()">Decrease Height </button>	
+		
+		<button type="button" id="sc" onclick="sc()">Switch Color </button>
+			
+		<button type="button" id="hs" onclick="hs()">Hide/Show </button>
+			
+		<button type="button" id="write" onclick="writsomething()">Write </button>
+		<br/>
+		<br/>
+		<div id="coverbox">
+			<textarea id="box" name="tbox" style="width:50px; height:50px;visibility:visible;background-color:white;color:black; "  ></textarea>
+		</div> 
+	</body>
+	
+	
+</html>

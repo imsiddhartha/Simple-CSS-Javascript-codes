@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Question 3</title>
+		<link rel="stylesheet" href="css/3.css"/>
+	</head>
+	<body>
+		<div class="dropdown">
+			 <ul>
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">About</a></li>
+				  <li><a href="#">Products</a>
+				  	  <ul>
+						     <li><a href="#">Laptop</a></li>
+						     <li><a href="#">Desktop</a></li>
+						     <li><a href="#">Moblies</a></li>
+					  </ul>
+				  </li>
+				  <li><a href="#">Contact</a></li>
+				  <li><a href="#">Customers</a>
+					   <ul>
+						     <li><a href="#">Login</a></li>
+						     <li><a href="../Ques4/mainform.html">Register</a></li>
+						     <li><a href="#">Help</a></li>
+					  </ul>
+				 </li>
+			</ul>
+		</div>
+	</body>
+</html>

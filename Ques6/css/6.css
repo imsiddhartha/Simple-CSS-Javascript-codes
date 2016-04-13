@@ -1,0 +1,40 @@
+body{
+background-color:blue;
+}
+#one
+{
+	width:30%;
+	height:50%;
+	background-color:purple;
+	float:left;
+	position: fixed;
+	 border: 1px solid red;
+}
+#two
+{
+	width:30%;
+	height:50%;
+	background-color:green;
+	margin-left:33%;
+	float:center;
+	position: fixed;
+	border: 1px solid red;
+}
+#three
+{
+	margin-top:0;
+	width:30%;
+	height:50%;
+	background-color:red;
+	float:right;
+	position: relative;
+	border: 1px solid red;
+}
+#nav {
+		padding: 10px;
+		background-color:orange;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+            border: 1px solid red;
+        }

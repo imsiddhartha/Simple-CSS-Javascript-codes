@@ -1,0 +1,31 @@
+@keyframes bounceball {
+    0%   {top: 0px;}
+    50% {top: 315px}
+    100%{top: 0px;}
+}
+@keyframes groundball {
+    0%   {width: 90px;height:80px;}
+    50% {width: 45px;height:40px;}
+    100%{width: 10px;height:10px;}
+}
+#ball
+{	
+	left:50%;
+	position:relative;
+	-webkit-animation: bounceball 1.5s infinite;
+}
+#border
+{
+	
+	top:370px;
+	position:absolute;
+}
+#myCanvas
+{
+	color:blue;
+	top:410px;
+	left:52%;
+	position:absolute;
+	-webkit-animation: groundball 1s infinite;
+}
+

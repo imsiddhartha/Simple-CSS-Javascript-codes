@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Question 8</title>
+		<link href="8.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8"/>
+	</head>
+	<body >
+		<h1> <i>Siddharth Saklecha 201505570 </i> </h1>
+		<div id="tb">
+			<h2>Twitter Bootstrap</h2>
+			<p>
+			Bootstrap is a free and open-source collection of tools for creating websites and web applications. It contains HTML- and 				CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional 				JavaScript extensions. It aims to ease the development of dynamic websites and web applications.</p>
+			<pre>Bootstrap is a front end framework, that is, an interface for the user, unlike the server-side code which resides on the "back end" or server.</pre>
+			<code>Bootstrap is the most-starred project on GitHub, with over <strong>85,000 stars </strong> and more than <strong> 34,000 forks</strong>.</code>
+
+			
+			<a href="http://getbootstrap.com/">Explore Bootstrap here!</a>
+		</div>
+			
+		<div id="jq"  >
+		<h2>JQuery	</h2>
+		
+		<p>
+		jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. jQuery is the most popular 			JavaScript library in use today, with installation on 65% of the top 10 million highest-trafficked sites on the Web.jQuery is 		free, open-source software licensed under the MIT License.
+		Query's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, theme-able widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and web applications.
+		
+		</p>
+		<a href="http://www.w3schools.com/jquery/">Start Learning JQuery here!</a><br/>
+		<a href="https://jquery.com/download/">Click here to Download </a><br/>
+		</div>		
+		<div id="ajs">
+		<h2>AngularJS</h2>
+		<p>
+		AngularJS (commonly referred to as "Angular") is an open-source web application framework maintained by Google and by a 		community of individual developers and corporations to address many of the challenges encountered in developing single-page 			applications.</p>
+		<pre>It aims to simplify both the development and the testing of such applications by providing a framework for client-side <strong>model–view–controller (MVC)</strong> and <strong>model–view–viewmodel (MVVM) </strong> <br/>architectures, along with components commonly used in rich Internet applications.
+</pre>
+		</div>
+		<div id="njs">
+		<h2>Node.Js</h2>
+		<p>
+		Node.js is an open-source, cross-platform runtime environment for developing server-side web applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, NonStop, IBM AIX, IBM System z and IBM i. Its work is hosted and supported by the Node.js Foundation, a collaborative project at Linux Foundation.
+		</p>
+		
+		<a href="https://nodejs.org/en/">Download NodeJs</a>
+		</div>
+		<div id="restapi">
+		<h2>REST API</h2>
+		<p>
+		In computing, Representational State Transfer (REST) is the software architectural style of the World Wide Web. REST gives a coordinated set of constraints to the design of components in a distributed hypermedia system that can lead to a higher-performing and more maintainable architecture.
+
+To the extent that systems conform to the constraints of REST they can be called RESTful. RESTful systems typically, but not always, communicate over the Hypertext Transfer Protocol with the same HTTP verbs (GET, POST, PUT, DELETE, etc.) which web browsers use to retrieve web pages and to send data to remote servers.REST interfaces usually involve collections of resources with identifiers, for example /people/tom, which can be operated upon using standard verbs, such as DELETE /people/tom
+		</p>
+		</div>
+		<div id="parallax">
+		<h2>Parallax</h2>
+		<p>
+		Parallax scrolling is a technique in computer graphics and web design, where background images move by the camera slower than foreground images, creating an illusion of depth in a 2D scene and adding to the immersion. The technique grew out of the multiplane camera technique used in traditional animation since the 1930s
+		</p>
+		<a href="http://andyshora.com/parallax.html">Click here for Example1</a>
+		<a href="https://ianlunn.co.uk/plugins/jquery-parallax/">Click here for Example2</a>
+		</div>
+
+	</body>
+</html>	

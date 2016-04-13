@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Q1</title>
+		<style>
+			body {background-color:lightgray}
+			div {align:center}
+			h1  {color:green}
+		</style>
+	</head>
+	
+	<body>
+	<h1 align="center">Succesfully registered!</h1>
+	</body>
+</html>

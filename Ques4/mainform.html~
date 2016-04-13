@@ -1,0 +1,44 @@
+<!doctype html>
+<!--NO internet connection in Lab!!!-->
+<html>
+	<head>
+		<title>Question 4</title>
+		<meta charset="utf-8"/>
+		<link href="css/4.css" rel="stylesheet">
+		<script src="js/4.js"></script>
+	</head>
+	
+	<body>
+	<h1 >User Info</h1>
+	<div >
+		<form name="register"  action="success.html" method="get" onSubmit="return validateForm()">
+		
+			<input type="text"  placeholder="Name" id="nm" name="nm" maxlength="100"/> <br/>
+
+			<input type="text" placeholder="Age" name="age" id="age"/><br/>
+
+			<input type="date" name="dob" id="dob"/><br/>
+
+			<input type="text" name="la" id="la" placeholder="Local Address"/><br/>
+
+			<input type="checkbox" name="same" id="same" value="yes" onchange="copyla()"/>
+
+			<label>Click if same PA and LA</label> 
+			  <br/>
+			<input type="text" name="pa" id="pa" placeholder="Permanent Address"/><br/>
+			
+			<input type="text" placeholder="Landline No." id="llno" name="llno"/><br/><!--10 digits-->
+
+			<input type="text" placeholder="Mobile No." name="mno" id="mno"/><br/><!--10 digits-->
+
+			<input type="text" name="email" id="email" placeholder="Email Address"/><br/>
+
+			<input type="text" name="th" id="th" placeholder="Twitter Handle"/><br/>
+
+			<input type="password" name="pwd" id="pwd" placeholder="Password"/><br/><!--psswd criteria -->
+
+			<input type="submit" value="Submit"/><br/>
+		</form>
+	</div>
+	</body>
+</html>

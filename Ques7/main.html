@@ -1,0 +1,33 @@
+<!doctype html>
+<!--NO internet connection in Lab!!!-->
+<html>
+	<head>
+		<title>Q7</title>
+		<meta charset="utf-8"/>
+		<link href="css/7.css" rel="stylesheet">
+		<script src="js/7.js"></script>
+	</head>
+	
+	<body>
+	
+	<div 	id="mainform">
+		<h1 >AJAX FORM</h1>
+		
+			<input type="text"  placeholder="Name" id="nm" maxlength="100" required/> <br/>
+			<input type="text" id="rollno" placeholder="Roll No" /><br/>
+			
+			<button type="button" id="sc" onclick="getTextFromServer();">try Ajax </button>
+			
+			<!--<button type="submit" onclick="getTextFromServer()">try Ajax</button><input type="submit" value="try Ajax"/>-->
+			<br/>
+		
+	</div>
+	
+	<div id="demo">
+	
+		<h2>Response Division</h2>
+		<!--<h2 id="test"></h2>-->
+			<p id="ajaxresponse"></p>
+		</div>
+	</body>
+</html>
